@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Learn basic NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoquachanh/NodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haoquachanh/NodeJS/issues"
+  },
+  "homepage": "https://github.com/haoquachanh/NodeJS#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
