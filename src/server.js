@@ -8,8 +8,10 @@ require('dotenv').config();
     const app=express();
     const port=process.env.PORT || 3001;
 
+    app.use(express.urlencoded({extended: true}))
+    app.use(express.json())
     // setup view engine
-    configViewEngine(app)
+    configViewEngine(app)       
 
     //init web route 
     initWebRoute(app)
