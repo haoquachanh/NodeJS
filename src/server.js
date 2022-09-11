@@ -1,3 +1,5 @@
+// import connection from './configs/connectDB';
+
 const { render } = require('ejs');
 const express =require('express');
 const { default: configViewEngine } = require('./configs/viewEngine');
