@@ -1,3 +1,8 @@
+.btn-save {
+  cursor: pointer;
+}
+
+
 h1{
     color: red;
     border: 1px solid black;
@@ -42,4 +47,14 @@ body {
 .create-user-container .btn-submit{
   margin-top: 15px;
   cursor: pointer;
+}
+
+
+.update-user-container label{
+  display: block;
+}
+.update-user-container {
+  padding: 15px;
+  top: 100px;
+  text-align: center;
 }

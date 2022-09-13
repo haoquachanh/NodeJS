@@ -45,9 +45,14 @@
             </td>
             <td>
               <a href="/detail/user/<%= usersData[i].id %>">Details</a>
-              <button >Details</button>
-              <button >Edit</button>
-              <button >Delete</button>
+              <form action="/edit-user/<%= usersData[i].id %>" method="GET" name="userId" value="<%= usersData[i].id %>">
+                
+                <button >Edit</button>
+              </form>
+              <form action="/delete-user" method="POST">
+                <button value="<%= usersData[i].id %>" name="userId">Delete</button>
+              </form>
+              
             </td>
           </tr>
         <% } %>
